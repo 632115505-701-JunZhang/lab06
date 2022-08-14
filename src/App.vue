@@ -10,9 +10,14 @@
   <!-- new element -->
   <router-view />
 </template>
+
 <script>
 export default {
-  inject: ['GStore'] // <----
+  inject: ['GStore'], // <----
+
+ created () {
+    document.title='JUN ZHANG'
+  }
 }
 </script>
 <style>
