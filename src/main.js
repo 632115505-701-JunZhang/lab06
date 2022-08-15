@@ -7,4 +7,3 @@ import 'nprogress/nprogress.css'
 // Create a reactive object
 
 createApp(App).use(router).provide('GStore', GStore).mount('#app')
-
